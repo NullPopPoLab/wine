@@ -932,12 +932,12 @@ static LONG start_params(const WCHAR *params)
         return FALSE;
 
     if(!wcscmp(params, L"install_gecko")) {
-        install_addon(ADDON_GECKO);
+        /* install_addon(ADDON_GECKO); */
         return TRUE;
     }
 
     if(!wcscmp(params, L"install_mono")) {
-        install_addon(ADDON_MONO);
+        /* install_addon(ADDON_MONO); */
         return TRUE;
     }
 
